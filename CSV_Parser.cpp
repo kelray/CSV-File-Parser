@@ -77,7 +77,7 @@ void main()
 	int i = 0;
 	float fNumBuffer[315];
 	
-	ParseCSV2float("TestData1.csv", 2, fNumBuffer, &ArraySize);
+	ParseCSV2float("TestData1.csv", 2, fNumBuffer, &ArraySize);	//parse the 2nd column in TestData1.csv file
 	printf("ArraySize is %d\n", ArraySize);
 	for (i = 0; i < ArraySize; i++)
 	{
